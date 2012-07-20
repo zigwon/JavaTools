@@ -58,7 +58,7 @@ public class TestRandomUtil extends BaseTestCase{
      * testRandomRate
      */
     public void testRandomRate() throws Exception{
-        int threadNumber = 10;  
+        int threadNumber = 10;
         final CountDownLatch countDownLatch = new CountDownLatch(threadNumber);
         
         final List<Integer> list = new ArrayList<Integer>();
